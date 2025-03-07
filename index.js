@@ -11,6 +11,6 @@ app.get("/about", (req, res) => {
     res.send("This is about page!")
 })
 
-app.listen(process.env.PORT, () => {
-    console.log(`Currently running on ${process.env.PORT}`)
+app.listen(port, () => {
+    console.log(`Currently running on ${port}`)
 })
